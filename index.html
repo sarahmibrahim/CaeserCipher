@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+        <label for="userKey"> Key</label>
+        <input type="number" min="0" max="26" id="userKey" value="1"/>
+        <br>
+        <br>
+        <label for="input">Enter Message</label>
+        <input type="text" id="entermessage" >
+        <input type="submit" id="button" value="Encode" onclick="caesarCipher()">
+        <label for="input">Coded Message</label>
+        <input type="text" id="output">
+        </div>
+        <br>
+        <br>
+        <p>To decode your text enter it into the decoder below</p>
+        <br>
+        <br>
+        <div >
+            <label for="input">Coded Message</label>
+            <input type="text" id="entercoded" >
+            <input type="submit" id="button" value="Decode" onclick="Cipher()">
+            <label for="input">Message Decoded</label>
+            <input type="text" id="Decoded" >
+          </div>
+    <script src='Deencode.js'></script>
+  </body>
+</html>
